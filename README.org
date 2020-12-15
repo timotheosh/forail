@@ -1,0 +1,90 @@
+* foráil
+  :PROPERTIES:
+  :CUSTOM_ID: core
+  :END:
+
+foráil is Gaelic for provision. This is an automation tool for provisioning computers. It is not as complete as tools like puppet or ansible... at least, not yet. I am writing it, because I use ansible for all my provisioning needs for my laptop, and I want to replace it with something written in Clojure.
+
+** Installation
+   :PROPERTIES:
+   :CUSTOM_ID: installation
+   :END:
+
+Download from https://github.com/timotheosh/forail.
+
+** Usage
+   :PROPERTIES:
+   :CUSTOM_ID: usage
+   :END:
+
+FIXME: explanation
+
+Run the project directly:
+
+#+BEGIN_EXAMPLE
+    $ clojure -m forail.core
+#+END_EXAMPLE
+
+Run the project's tests (they'll fail until you edit them):
+
+#+BEGIN_EXAMPLE
+    $ clojure -A:test:runner
+#+END_EXAMPLE
+
+Build an uberjar:
+
+#+BEGIN_EXAMPLE
+    $ clojure -A:uberjar
+#+END_EXAMPLE
+
+Run that uberjar:
+
+#+BEGIN_EXAMPLE
+    $ java -jar forail.jar
+#+END_EXAMPLE
+
+** Options
+   :PROPERTIES:
+   :CUSTOM_ID: options
+   :END:
+
+FIXME: listing of options this app accepts.
+
+** Examples
+   :PROPERTIES:
+   :CUSTOM_ID: examples
+   :END:
+
+...
+
+*** Bugs
+    :PROPERTIES:
+    :CUSTOM_ID: bugs
+    :END:
+
+...
+
+*** Any Other Sections
+    :PROPERTIES:
+    :CUSTOM_ID: any-other-sections
+    :END:
+
+*** That You Think
+    :PROPERTIES:
+    :CUSTOM_ID: that-you-think
+    :END:
+
+*** Might be Useful
+    :PROPERTIES:
+    :CUSTOM_ID: might-be-useful
+    :END:
+
+** License
+   :PROPERTIES:
+   :CUSTOM_ID: license
+   :END:
+
+Copyright © 2020 Tim Hawes
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.
